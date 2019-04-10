@@ -1,0 +1,231 @@
+﻿Build started 1/2/2014 12:03:12 PM.
+     1>Project "D:\Code\Dependencies\RakNet_PC-4.051\Lib\DLL\DLL_vc9.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\DLL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I./../../Source /I"./../../DependentExtensions/openssl-1.0.0d/include" /I./../../DependentExtensions /ZI /nologo /W4 /WX- /Od /Oy- /D _CRT_SECURE_NO_DEPRECATE /D WIN32 /D _DEBUG /D _RAKNET_DLL /D _CRT_NONSTDC_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /Gm /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Debug\\" /Fd"Debug\../../RakNetDebug" /Gd /TP /analyze- /errorReport:prompt ..\..\Source\_FindFirst.cpp ..\..\Source\BitStream.cpp ..\..\Source\CCRakNetSlidingWindow.cpp ..\..\Source\CCRakNetUDT.cpp ..\..\Source\CheckSum.cpp ..\..\Source\CloudClient.cpp ..\..\Source\CloudCommon.cpp ..\..\Source\CloudServer.cpp ..\..\Source\CommandParserInterface.cpp ..\..\Source\ConnectionGraph2.cpp ..\..\Source\ConsoleServer.cpp ..\..\Source\DataCompressor.cpp ..\..\Source\DirectoryDeltaTransfer.cpp ..\..\Source\DS_BytePool.cpp ..\..\Source\DS_ByteQueue.cpp ..\..\Source\DS_HuffmanEncodingTree.cpp ..\..\Source\DS_Table.cpp ..\..\Source\DynDNS.cpp ..\..\Source\EmailSender.cpp ..\..\Source\EncodeClassName.cpp ..\..\Source\EpochTimeToString.cpp ..\..\Source\FileList.cpp ..\..\Source\FileListTransfer.cpp ..\..\Source\FileOperations.cpp ..\..\Source\FormatString.cpp ..\..\Source\FullyConnectedMesh2.cpp ..\..\Source\Getche.cpp ..\..\Source\Gets.cpp ..\..\Source\GetTime.cpp ..\..\Source\gettimeofday.cpp ..\..\Source\GridSectorizer.cpp ..\..\Source\HTTPConnection.cpp ..\..\Source\IncrementalReadInterface.cpp ..\..\Source\Itoa.cpp ..\..\Source\LinuxStrings.cpp ..\..\Source\LocklessTypes.cpp ..\..\Source\LogCommandParser.cpp ..\..\Source\MessageFilter.cpp ..\..\Source\NatPunchthroughClient.cpp ..\..\Source\NatPunchthroughServer.cpp ..\..\Source\NatTypeDetectionClient.cpp ..\..\Source\NatTypeDetectionCommon.cpp ..\..\Source\NatTypeDetectionServer.cpp ..\..\Source\NetworkIDManager.cpp ..\..\Source\NetworkIDObject.cpp ..\..\Source\PacketConsoleLogger.cpp ..\..\Source\PacketFileLogger.cpp ..\..\Source\PacketizedTCP.cpp ..\..\Source\PacketLogger.cpp ..\..\Source\PacketOutputWindowLogger.cpp ..\..\Source\PluginInterface2.cpp ..\..\Source\Rackspace.cpp ..\..\Source\RakMemoryOverride.cpp ..\..\Source\RakNetCommandParser.cpp ..\..\Source\RakNetSocket.cpp ..\..\Source\RakNetStatistics.cpp ..\..\Source\RakNetTransport2.cpp ..\..\Source\RakNetTypes.cpp ..\..\Source\RakPeer.cpp ..\..\Source\RakSleep.cpp ..\..\Source\RakString.cpp ..\..\Source\RakThread.cpp ..\..\Source\RakWString.cpp ..\..\Source\Rand.cpp ..\..\Source\rdlmalloc.cpp ..\..\Source\ReadyEvent.cpp ..\..\Source\ReliabilityLayer.cpp ..\..\Source\ReplicaManager3.cpp ..\..\Source\Router2.cpp ..\..\Source\RPC4Plugin.cpp ..\..\Source\SecureHandshake.cpp ..\..\Source\SendToThread.cpp ..\..\Source\SHA1.cpp ..\..\Source\SignaledEvent.cpp ..\..\Source\SimpleMutex.cpp ..\..\Source\SocketLayer.cpp ..\..\Source\StatisticsHistory.cpp ..\..\Source\StringCompressor.cpp ..\..\Source\StringTable.cpp ..\..\Source\SuperFastHash.cpp ..\..\Source\TableSerializer.cpp ..\..\Source\TCPInterface.cpp ..\..\Source\TeamBalancer.cpp ..\..\Source\TeamManager.cpp ..\..\Source\TelnetTransport.cpp ..\..\Source\ThreadsafePacketLogger.cpp ..\..\Source\TwoWayAuthentication.cpp ..\..\Source\UDPForwarder.cpp ..\..\Source\UDPProxyClient.cpp ..\..\Source\UDPProxyCoordinator.cpp ..\..\Source\UDPProxyServer.cpp ..\..\Source\VariableDeltaSerializer.cpp ..\..\Source\VariableListDeltaTracker.cpp ..\..\Source\VariadicSQLParser.cpp ..\..\Source\WSAStartupSingleton.cpp
+         WSAStartupSingleton.cpp
+         VariadicSQLParser.cpp
+         VariableListDeltaTracker.cpp
+         VariableDeltaSerializer.cpp
+         UDPProxyServer.cpp
+         UDPProxyCoordinator.cpp
+         UDPProxyClient.cpp
+         UDPForwarder.cpp
+     1>d:\code\dependencies\raknet_pc-4.051\source\udpforwarder.cpp(130): warning C4127: conditional expression is constant
+     1>d:\code\dependencies\raknet_pc-4.051\source\udpforwarder.cpp(348): warning C4127: conditional expression is constant
+     1>d:\code\dependencies\raknet_pc-4.051\source\udpforwarder.cpp(489): warning C4127: conditional expression is constant
+         TwoWayAuthentication.cpp
+         ThreadsafePacketLogger.cpp
+         TelnetTransport.cpp
+         TeamManager.cpp
+         TeamBalancer.cpp
+         TCPInterface.cpp
+     1>d:\code\dependencies\raknet_pc-4.051\source\tcpinterface.cpp(888): warning C4127: conditional expression is constant
+         TableSerializer.cpp
+         SuperFastHash.cpp
+         StringTable.cpp
+         StringCompressor.cpp
+         StatisticsHistory.cpp
+         SocketLayer.cpp
+         Generating Code...
+     1>d:\code\dependencies\raknet_pc-4.051\source\socketlayer.cpp(799): warning C4702: unreachable code
+     1>d:\code\dependencies\raknet_pc-4.051\source\socketlayer.cpp(856): warning C4702: unreachable code
+         Compiling...
+         SimpleMutex.cpp
+         SignaledEvent.cpp
+         SHA1.cpp
+         SendToThread.cpp
+         SecureHandshake.cpp
+         RPC4Plugin.cpp
+         Router2.cpp
+         ReplicaManager3.cpp
+         ReliabilityLayer.cpp
+     1>d:\code\dependencies\raknet_pc-4.051\source\reliabilitylayer.cpp(538): warning C4127: conditional expression is constant
+     1>d:\code\dependencies\raknet_pc-4.051\source\reliabilitylayer.cpp(1735): warning C4127: conditional expression is constant
+         ReadyEvent.cpp
+         rdlmalloc.cpp
+         Rand.cpp
+         RakWString.cpp
+         RakThread.cpp
+         RakString.cpp
+         RakSleep.cpp
+         RakPeer.cpp
+         RakNetTypes.cpp
+         RakNetTransport2.cpp
+         RakNetStatistics.cpp
+         Generating Code...
+     1>d:\code\dependencies\raknet_pc-4.051\source\raknettypes.cpp(648): warning C4702: unreachable code
+     1>d:\code\dependencies\raknet_pc-4.051\source\rakpeer.cpp(1558): warning C4702: unreachable code
+         Compiling...
+         RakNetSocket.cpp
+         RakNetCommandParser.cpp
+         RakMemoryOverride.cpp
+         Rackspace.cpp
+         PluginInterface2.cpp
+         PacketOutputWindowLogger.cpp
+         PacketLogger.cpp
+         PacketizedTCP.cpp
+         PacketFileLogger.cpp
+         PacketConsoleLogger.cpp
+         NetworkIDObject.cpp
+         NetworkIDManager.cpp
+         NatTypeDetectionServer.cpp
+         NatTypeDetectionCommon.cpp
+         NatTypeDetectionClient.cpp
+         NatPunchthroughServer.cpp
+         NatPunchthroughClient.cpp
+         MessageFilter.cpp
+         LogCommandParser.cpp
+         LocklessTypes.cpp
+         Generating Code...
+         Compiling...
+         LinuxStrings.cpp
+         Itoa.cpp
+         IncrementalReadInterface.cpp
+         HTTPConnection.cpp
+         GridSectorizer.cpp
+         gettimeofday.cpp
+         GetTime.cpp
+         Gets.cpp
+         Getche.cpp
+         FullyConnectedMesh2.cpp
+         FormatString.cpp
+         FileOperations.cpp
+         FileListTransfer.cpp
+         FileList.cpp
+         EpochTimeToString.cpp
+         EncodeClassName.cpp
+         EmailSender.cpp
+         DynDNS.cpp
+         DS_Table.cpp
+         DS_HuffmanEncodingTree.cpp
+         Generating Code...
+     1>d:\code\dependencies\raknet_pc-4.051\source\ds_linkedlist.h(520): warning C4703: potentially uninitialized local pointer variable 'save_position' used
+     1>d:\code\dependencies\raknet_pc-4.051\source\ds_linkedlist.h(609): warning C4703: potentially uninitialized local pointer variable 'save_position' used
+         Compiling...
+         DS_ByteQueue.cpp
+         DS_BytePool.cpp
+         DirectoryDeltaTransfer.cpp
+         DataCompressor.cpp
+         ConsoleServer.cpp
+         ConnectionGraph2.cpp
+         CommandParserInterface.cpp
+         CloudServer.cpp
+         CloudCommon.cpp
+         CloudClient.cpp
+         CheckSum.cpp
+         CCRakNetUDT.cpp
+         CCRakNetSlidingWindow.cpp
+         BitStream.cpp
+         _FindFirst.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(D:\Code\Dependencies\RakNet_PC-4.051\Lib\DLL\Debug\DLL.dll) does not match the Linker's OutputFile property value (D:\Code\Dependencies\RakNet_PC-4.051\Lib\RakNetDebug.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1139,5): warning MSB8012: TargetName(DLL) does not match the Linker's OutputFile property value (RakNetDebug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\../../RakNetDebug.dll" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\../../RakNetDebug.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Debug\../../RakNetDLLDebug.lib" /MACHINE:X86 /SAFESEH /DLL Debug\_FindFirst.obj
+         Debug\BitStream.obj
+         Debug\CCRakNetSlidingWindow.obj
+         Debug\CCRakNetUDT.obj
+         Debug\CheckSum.obj
+         Debug\CloudClient.obj
+         Debug\CloudCommon.obj
+         Debug\CloudServer.obj
+         Debug\CommandParserInterface.obj
+         Debug\ConnectionGraph2.obj
+         Debug\ConsoleServer.obj
+         Debug\DataCompressor.obj
+         Debug\DirectoryDeltaTransfer.obj
+         Debug\DS_BytePool.obj
+         Debug\DS_ByteQueue.obj
+         Debug\DS_HuffmanEncodingTree.obj
+         Debug\DS_Table.obj
+         Debug\DynDNS.obj
+         Debug\EmailSender.obj
+         Debug\EncodeClassName.obj
+         Debug\EpochTimeToString.obj
+         Debug\FileList.obj
+         Debug\FileListTransfer.obj
+         Debug\FileOperations.obj
+         Debug\FormatString.obj
+         Debug\FullyConnectedMesh2.obj
+         Debug\Getche.obj
+         Debug\Gets.obj
+         Debug\GetTime.obj
+         Debug\gettimeofday.obj
+         Debug\GridSectorizer.obj
+         Debug\HTTPConnection.obj
+         Debug\IncrementalReadInterface.obj
+         Debug\Itoa.obj
+         Debug\LinuxStrings.obj
+         Debug\LocklessTypes.obj
+         Debug\LogCommandParser.obj
+         Debug\MessageFilter.obj
+         Debug\NatPunchthroughClient.obj
+         Debug\NatPunchthroughServer.obj
+         Debug\NatTypeDetectionClient.obj
+         Debug\NatTypeDetectionCommon.obj
+         Debug\NatTypeDetectionServer.obj
+         Debug\NetworkIDManager.obj
+         Debug\NetworkIDObject.obj
+         Debug\PacketConsoleLogger.obj
+         Debug\PacketFileLogger.obj
+         Debug\PacketizedTCP.obj
+         Debug\PacketLogger.obj
+         Debug\PacketOutputWindowLogger.obj
+         Debug\PluginInterface2.obj
+         Debug\Rackspace.obj
+         Debug\RakMemoryOverride.obj
+         Debug\RakNetCommandParser.obj
+         Debug\RakNetSocket.obj
+         Debug\RakNetStatistics.obj
+         Debug\RakNetTransport2.obj
+         Debug\RakNetTypes.obj
+         Debug\RakPeer.obj
+         Debug\RakSleep.obj
+         Debug\RakString.obj
+         Debug\RakThread.obj
+         Debug\RakWString.obj
+         Debug\Rand.obj
+         Debug\rdlmalloc.obj
+         Debug\ReadyEvent.obj
+         Debug\ReliabilityLayer.obj
+         Debug\ReplicaManager3.obj
+         Debug\Router2.obj
+         Debug\RPC4Plugin.obj
+         Debug\SecureHandshake.obj
+         Debug\SendToThread.obj
+         Debug\SHA1.obj
+         Debug\SignaledEvent.obj
+         Debug\SimpleMutex.obj
+         Debug\SocketLayer.obj
+         Debug\StatisticsHistory.obj
+         Debug\StringCompressor.obj
+         Debug\StringTable.obj
+         Debug\SuperFastHash.obj
+         Debug\TableSerializer.obj
+         Debug\TCPInterface.obj
+         Debug\TeamBalancer.obj
+         Debug\TeamManager.obj
+         Debug\TelnetTransport.obj
+         Debug\ThreadsafePacketLogger.obj
+         Debug\TwoWayAuthentication.obj
+         Debug\UDPForwarder.obj
+         Debug\UDPProxyClient.obj
+         Debug\UDPProxyCoordinator.obj
+         Debug\UDPProxyServer.obj
+         Debug\VariableDeltaSerializer.obj
+         Debug\VariableListDeltaTracker.obj
+         Debug\VariadicSQLParser.obj
+         Debug\WSAStartupSingleton.obj
+     1>_FindFirst.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library Debug\../../RakNetDLLDebug.lib and object Debug\../../RakNetDLLDebug.exp
+         DLL_vc9.vcxproj -> D:\Code\Dependencies\RakNet_PC-4.051\Lib\DLL\Debug\DLL.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\DLL.unsuccessfulbuild".
+         Touching "Debug\DLL.lastbuildstate".
+     1>Done Building Project "D:\Code\Dependencies\RakNet_PC-4.051\Lib\DLL\DLL_vc9.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:09.05
